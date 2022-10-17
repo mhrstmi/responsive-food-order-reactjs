@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/responsive-food-order-reactjs/static/css/main.1a855150.css",
+    "main.js": "/responsive-food-order-reactjs/static/js/main.cd46ba4c.js",
+    "static/media/tv.png": "/responsive-food-order-reactjs/static/media/tv.d6b2a7fae49d3757e866.png",
+    "static/media/fries.png": "/responsive-food-order-reactjs/static/media/fries.f34935860a3a91963ef2.png",
+    "static/media/phone.png": "/responsive-food-order-reactjs/static/media/phone.a5dc3cd95d7aafd3df71.png",
+    "static/media/hamber.png": "/responsive-food-order-reactjs/static/media/hamber.8c3dd1df2ceb8dabb1eb.png",
+    "static/media/tablet.png": "/responsive-food-order-reactjs/static/media/tablet.38065112db703f206e90.png",
+    "static/media/monitor.png": "/responsive-food-order-reactjs/static/media/monitor.1b005b219b50cdc5b27f.png",
+    "static/media/pc.png": "/responsive-food-order-reactjs/static/media/pc.3f4381c3c7823accb811.png",
+    "static/media/laptop.png": "/responsive-food-order-reactjs/static/media/laptop.35ded0a36b4b2d745057.png",
+    "static/media/watch.png": "/responsive-food-order-reactjs/static/media/watch.2d1e49a273abad332e04.png",
+    "static/media/footer.jpg": "/responsive-food-order-reactjs/static/media/footer.0cb54ba3bf03df24290a.jpg",
+    "static/media/watch.jpg": "/responsive-food-order-reactjs/static/media/watch.1522def6b253c4096d2e.jpg",
+    "static/media/tv.jpg": "/responsive-food-order-reactjs/static/media/tv.c7311b35236655e520ac.jpg",
+    "static/media/Appstore.png": "/responsive-food-order-reactjs/static/media/Appstore.f60de6e979631104ff63.png",
+    "static/media/pepsi.png": "/responsive-food-order-reactjs/static/media/pepsi.dfe2587b00e0ccb14e81.png",
+    "static/media/p1.jpg": "/responsive-food-order-reactjs/static/media/p1.ff25e4bd7983ab0d06af.jpg",
+    "static/media/phone.jpg": "/responsive-food-order-reactjs/static/media/phone.ff25e4bd7983ab0d06af.jpg",
+    "static/media/p5.jpg": "/responsive-food-order-reactjs/static/media/p5.02d24dccdbaba6d7e040.jpg",
+    "static/media/p3.jpg": "/responsive-food-order-reactjs/static/media/p3.20d3585ce3fcb43270e1.jpg",
+    "static/media/p6.jpg": "/responsive-food-order-reactjs/static/media/p6.5b7181a21489c8f3ccc8.jpg",
+    "static/media/p2.jpg": "/responsive-food-order-reactjs/static/media/p2.f6af1ad5d862b2f5e8c7.jpg",
+    "static/media/p4.jpg": "/responsive-food-order-reactjs/static/media/p4.4483f3010b7a0e2ed436.jpg",
+    "static/media/head.jpg": "/responsive-food-order-reactjs/static/media/head.31fd997a781ccea56726.jpg",
+    "static/media/button.jpg": "/responsive-food-order-reactjs/static/media/button.1611b99c6c33a2bb2310.jpg",
+    "static/media/new.png": "/responsive-food-order-reactjs/static/media/new.8432236f846995a18a06.png",
+    "static/media/googlestore.png": "/responsive-food-order-reactjs/static/media/googlestore.be5f794ce26995268470.png",
+    "static/media/slick.svg": "/responsive-food-order-reactjs/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/responsive-food-order-reactjs/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/responsive-food-order-reactjs/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/responsive-food-order-reactjs/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/responsive-food-order-reactjs/index.html",
+    "main.1a855150.css.map": "/responsive-food-order-reactjs/static/css/main.1a855150.css.map",
+    "main.cd46ba4c.js.map": "/responsive-food-order-reactjs/static/js/main.cd46ba4c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1a855150.css",
+    "static/js/main.cd46ba4c.js"
+  ]
+}
