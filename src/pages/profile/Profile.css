@@ -1,0 +1,311 @@
+.profile {
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+}
+
+.profile .container {
+    
+    width: 20%;
+    height: 100%;
+    padding: 5px ;
+    box-shadow: rgba(0, 0, 0, 0.09) 0 1px 50px;
+}
+
+.profile .buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile .buttons button {
+    
+    background: url('./images/button.jpg');
+    background-size: cover;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 50px;
+    width: 50%;
+    margin: 0px 10px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.09) 0 1px 50px;
+}
+
+.profile .container-profile {
+    width: 50%;
+    height: 100%;
+    padding: 5px;
+    box-shadow: rgba(0, 0, 0, 0.09) 0 1px 50px;
+}
+
+.profile .container-profile .img {
+    margin: 40px 0px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    cursor: pointer;
+    transition: all 0.7s ease;
+    
+
+}
+
+.profile .container-profile .img:hover {
+    transform: scale(1.1);
+}
+
+
+.profile .container-profile img {
+    border: 5px solid #4252eb;
+    border-radius: 20px;
+    border-style: dotted;
+    max-width: 300px;
+    max-height: 200px;
+    object-fit: cover;
+    box-shadow: rgba(0, 0, 0, 0.09) 10px 10px 0;
+
+}
+
+
+
+.profile .inputs {
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: rgba(0, 0, 0, 0.09) 0 1px 20px;
+    
+}
+
+.profile .inputs .right {
+    width: 45%;
+    margin-right: 10px;
+}
+
+.profile .inputs .left {
+    width: 45%;
+    margin-left: 10px;
+}
+
+.profile .inputs label {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.profile .inputs input {
+    border: 1px solid lightgray;
+    padding: 5px 1px 5px 0px;
+    width: 100%;
+
+    border-radius: 25px;
+    margin-bottom: 20px
+}
+
+
+.profile .inputs input::placeholder {
+    padding: 20px;
+}
+
+
+
+.profile .address {
+    padding: 40px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: rgba(3 0 71 / 9%) 0 1px 20px;
+}
+
+.profile .address h1 {
+    margin-bottom: 40px ;
+}
+
+
+.profile .inputs .right {
+    display: flex;
+    flex-direction: column;
+}
+
+.profile .inputs .left {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.profile .btn{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile button {
+    border-radius: 25px;
+    font-weight: bold;
+    color: white;
+    padding: 15px 40px;
+    background-color: #02a705;
+    cursor: pointer;
+    transition: transform 0.7s ease;
+}
+
+.profile button:hover {
+    transform: scale(1.1);
+    background-color: #4252eb;
+}
+
+
+.profile .address input {
+    border: 1px solid lightgray;
+    border-radius: 25px;
+    width: 90%;
+    padding: 5px 0px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.profile .address textarea {
+    width: 90%;
+    height: 80px;
+    border: 2px solid lightgray;
+    border-radius: 10px
+}
+
+.profile .address textarea::placeholder {
+    padding: 10px;
+}
+
+.profile .container h1 {
+    padding: 5px;
+}
+
+
+.profile .container .new{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.profile .container .cate{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.profile .container .new-heading {
+    display: flex;
+
+}
+
+.profile .container .cate-heading {
+    display: flex;
+
+}
+
+.profile .container .new-heading img {
+    width: 40px;
+    height: 40px;
+    
+}
+
+.profile .container .cate-heading i {
+   padding: 10px 0px;
+    
+}
+
+.profile .container .img {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.profile .container img {
+    
+    object-fit: contain;
+    margin-bottom: 10px;
+}
+
+
+
+.profile .container h3{
+    color: #4c46ff;
+}
+
+.profile .container h2{
+    font-size: 20px;
+    margin-bottom: 10px;
+    
+}
+
+@media only screen and (max-width:1200px){/*if it is 800px change the font to 11 pt and so on for each resolution you need.*/
+    .profile .container {
+        display: none;
+    }
+
+    .profile .container-profile {
+        width: 100%;
+    }
+    }
+
+@media only screen and (max-width:600px){
+    .profile .buttons {
+        padding: 20px;
+        justify-content: space-between;
+        flex-direction: column;
+
+    }
+
+    .profile .buttons button {
+        padding: 50px;
+        width: 100%;
+        margin: 10px 0px;
+        border-radius: 10px;
+        box-shadow: rgba(0, 0, 0, 0.09) 0 1px 50px;
+    }
+
+    .profile .inputs {
+        align-items: center;
+        flex-direction: column;
+        
+    }
+    
+    .profile .inputs .right {
+        width: 100%;
+        margin-right: 0px;
+    }
+    
+    .profile .inputs .left {
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    .profile .address input {
+        width: 100%;
+
+    }
+    
+    .profile .address textarea {
+        width: 100%;
+        
+        
+    }
+    .profile .inputs {
+        padding: 15px;
+ 
+    }
+
+    .profile .address {
+        padding: 15px;
+ 
+    }
+    }

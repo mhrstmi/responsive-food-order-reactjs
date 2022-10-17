@@ -1,0 +1,149 @@
+.mobile {
+    display: none;
+}
+
+footer {
+    background: url('./images/footer.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0px;
+    box-shadow: inset 0px 850px 500px -600px #ffffff;
+}
+
+
+footer h1 {
+    margin-bottom: 30px;
+    color: #999999;
+    font-size: 50px;
+    font-weight: 500;
+    margin-bottom: 60px;
+   
+}
+
+footer h1 b{
+    color: #2908fd;
+}
+
+
+footer .box {
+    margin: 0px 20px;
+}
+
+footer .img {
+    background-color: #0c2a4d;
+    padding: 15px 20px;
+    border-radius:  5px;
+    cursor: pointer;
+    transition: all 0.7s ease-in-out;
+}
+
+footer .img:hover {
+    background-color: #dadada;
+    transform: scale(1.1);
+}
+
+
+footer .img .app-store {
+    width: 40px;
+    height: 25px;
+}
+
+
+footer .img .google-store {
+    margin-left: 5px;
+    width:25px;
+    height:25px;
+}
+
+
+footer .img span {
+    margin-top: 2px;
+    color: #fff;
+    transition: all 0.7s ease-in-out;
+
+}
+
+footer .img:hover span {
+    color: black;
+}
+
+
+footer p{
+    font-size: 14px;
+    font-weight: 300;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+
+footer h2 {
+    margin-bottom: 50px;
+}
+
+footer li {
+    margin-bottom: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.7s ease-in-out;
+}
+
+footer li:hover {
+    color:#2908fd;
+    transform: scale(1.1);
+}
+
+
+
+@media only screen and (max-width:800px){/*if it is 800px change the font to 11 pt and so on for each resolution you need.*/
+    .desktop {
+        display: none;
+    }
+    .mobile {
+        display: block;
+    }
+
+    footer .container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    }
+@media only screen and (max-width:600px){
+        .desktop {
+            display: none;
+        }
+        .mobile {
+            display: block;
+        }
+        footer .container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+@media only screen and (max-width:400px){
+        .desktop {
+            display: none;
+        }
+        .mobile {
+            display: block;
+        }
+        footer .container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+@media only screen and (max-width:200px){
+        .desktop {
+            display: none;
+        }
+        .mobile {
+            display: block;
+        }
+        footer .container{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
